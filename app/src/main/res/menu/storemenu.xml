@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item
+             android:title="Notify"
+             android:id="@+id/notify"
+             app:showAsAction="ifRoom"
+             android:icon="@drawable/ic_baseline_notifications_24"/>
+
+
+        <item
+             android:title="Search"
+             android:id="@+id/search"
+             app:showAsAction="ifRoom"
+             android:icon="@drawable/ic_baseline_search_24"
+             app:actionViewClass="android.widget.SearchView"/>
+
+        <item
+            android:id="@+id/bigdiscount"
+            android:title="Big Discount"/>
+
+        <item
+            android:id="@+id/hotdeals"
+            android:title="Hot Deals"/>
+
+        <item
+            android:id="@+id/orders"
+            android:title="Orders"/>
+
+        <item
+            android:id="@+id/account"
+            android:title="Account"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"/>
+
+
+</menu>
